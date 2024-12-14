@@ -1,0 +1,24 @@
+customer_id,satisfaction_score,age,purchase_amount,feedback,date
+1,4,35,150.50,"Good product quality, fast delivery","2024-01-15"
+2,5,42,275.00,"Excellent customer service, will buy again","2024-01-15"
+3,2,28,89.99,"Product arrived damaged, slow response","2024-01-16"
+4,3,51,199.99,"Average experience, could be better","2024-01-16"
+5,5,39,325.50,"Perfect experience, highly recommended","2024-01-17"
+6,4,45,178.25,"Satisfied with purchase, minor delays","2024-01-17"
+7,1,33,95.00,"Poor quality, disappointing service","2024-01-18"
+8,5,29,445.75,"Outstanding experience overall","2024-01-18"
+9,4,47,267.80,"Good value for money, friendly staff","2024-01-19"
+10,3,36,156.25,"Decent product, shipping took long","2024-01-19"
+11,5,31,289.99,"Best online shopping experience","2024-01-20"
+12,2,44,134.50,"Items missing from package","2024-01-20"
+13,4,38,198.75,"Reliable service, as advertised","2024-01-21"
+14,5,52,378.00,"Great selection and prices","2024-01-21"
+15,3,27,167.25,"Product okay, packaging needs improvement","2024-01-22"
+[
+    {
+        "command_name": "Terminal.run_command",
+        "args": {
+            "cmd": "mkdir -p tests/data && cd tests/data"
+        }
+    }
+]
